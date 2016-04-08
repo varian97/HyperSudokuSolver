@@ -6,10 +6,10 @@ public class mainSudoku
     {
         HyperSudoku S = new HyperSudoku();
         S.load();
-        System.out.println("Sudoku yang anda input adalah : ");
+        System.out.println("Your Input : ");
         S.printmatrix();
         System.out.println();
-        System.out.println(" Solusinya adalah :");
+        System.out.println(" The solution :");
         S.solver();
     }
 }
