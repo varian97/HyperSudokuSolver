@@ -76,7 +76,7 @@ public class HyperSudoku
         FileReader in;
         int i,j;
         setmatrix();
-        System.out.print("Masukkan nama file sudoku (.txt) : ");
+        System.out.print("Input the file (.txt) : ");
         String input = s.nextLine();
         
         try
@@ -415,7 +415,7 @@ public class HyperSudoku
         }
         stop();
         printmatrix();
-   System.out.println("Jumlah Assignment = " + assign_counter + " kali");
-   System.out.println("Waktu Eksekusi = " + ResultTime() + "ms");
+   System.out.println("Total Assignment = " + assign_counter + " time(s)");
+   System.out.println("Execute Time = " + ResultTime() + "ms");
     }
 }
